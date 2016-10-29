@@ -28,15 +28,9 @@ import sys
 from time import sleep, time
 import ctypes as ct
 from ctypes.util import find_library
-import	os
 
-def	run(**args):
 
-	print "[*] In Dirlister module."
-	files	=	os.listdir(".")
-
-	return	str(files)
-
+print "OK"
 # linux only!
 assert("linux" in sys.platform)
 
